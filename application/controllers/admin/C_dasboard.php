@@ -21,7 +21,13 @@ class C_dasboard extends CI_Controller
 	 */
 	public function index()
 	{
+		// template header dan navigasi
+		$this->load->view('admin/template/header');
+		$this->load->view('admin/template/nav');
+		// isi
 		$this->load->view('admin/dasboard');
+		// template footer
+		$this->load->view('admin/template/footer');
 	}
 
 	public function test()
