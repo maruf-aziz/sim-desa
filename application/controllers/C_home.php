@@ -21,7 +21,13 @@ class C_home extends CI_Controller
 	 */
 	public function index()
 	{
+		// template header dan navbar
+		$this->load->view('user/template/header');
+		$this->load->view('user/template/nav');
+		// isi
 		$this->load->view('user/home');
+		// template footer
+		$this->load->view('user/template/footer');
 	}
 
 	public function test()
