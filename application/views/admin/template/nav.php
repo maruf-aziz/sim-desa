@@ -21,30 +21,22 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?= base_url('assets/backend/') ?>index.html">
+          <a class="nav-link" href="<?= base_url('admin') ?>/c_dasboard">
             <i class="mdi mdi-home menu-icon"></i>
+            <span class="menu-title">Dashboard</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?= base_url('assets/backend/') ?>index.html">
+            <i class="mdi mdi-account menu-icon"></i>
             <span class="menu-title">User</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-toggle="collapse" href="<?= base_url('assets/backend/') ?>#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-            <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+          <a class="nav-link" href="<?= base_url('admin') ?>/c_layanan">
+            <i class="mdi mdi-wunderlist menu-icon"></i>
             <span class="menu-title">Layanan</span>
-            <i class="menu-arrow"></i>
           </a>
-          <div class="collapse" id="ui-basic">
-            <ul class="nav flex-column sub-menu">
-              <li class="nav-item">
-                <a class="nav-link" href="<?= base_url('assets/backend/') ?>pages/ui-features/buttons.html">Buttons</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="<?= base_url('assets/backend/') ?>pages/ui-features/dropdowns.html">Dropdowns</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="<?= base_url('assets/backend/') ?>pages/ui-features/typography.html">Typography</a>
-              </li>
-            </ul>
-          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?= base_url('assets/backend/') ?>pages/icons/mdi.html">
@@ -88,29 +80,29 @@
       </ul>
     </nav>
 
-      <nav class="navbar col-lg-12 col-12 p-lg-0 fixed-top d-flex flex-row">
-        <div class="navbar-menu-wrapper d-flex align-items-stretch justify-content-between">
-          <a class="navbar-brand brand-logo-mini align-self-center d-lg-none" href="<?= base_url('assets/backend/') ?>index.html"><img src="<?= base_url('assets/backend/') ?>assets/images/logo-mini.svg" alt="logo" /></a>
-          <button class="navbar-toggler navbar-toggler align-self-center mr-2" type="button" data-toggle="minimize">
-            <i class="mdi mdi-menu"></i>
-          </button>
-          <ul class="navbar-nav navbar-nav-right ml-lg-auto">
-          
-            <li class="nav-item nav-profile dropdown border-0">
-              <a class="nav-link dropdown-toggle" id="profileDropdown" href="<?= base_url('assets/backend/') ?>#" data-toggle="dropdown">
-                <img class="nav-profile-img mr-2" alt="" src="<?= base_url('assets/backend/') ?>assets/images/faces/face1.jpg" />
-                <span class="profile-name">Henry Klein</span>
-              </a>
-              <div class="dropdown-menu navbar-dropdown w-100" aria-labelledby="profileDropdown">
-                <a class="dropdown-item" href="<?= base_url('assets/backend/') ?>#">
-                  <i class="mdi mdi-cached mr-2 text-success"></i> Activity Log </a>
-                <a class="dropdown-item" href="<?= base_url('assets/backend/') ?>#">
-                  <i class="mdi mdi-logout mr-2 text-primary"></i> Signout </a>
-              </div>
-            </li>
-          </ul>
-          <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
-            <span class="mdi mdi-menu"></span>
-          </button>
-        </div>
-      </nav>
+    <nav class="navbar col-lg-12 col-12 p-lg-0 fixed-top d-flex flex-row">
+      <div class="navbar-menu-wrapper d-flex align-items-stretch justify-content-between">
+        <a class="navbar-brand brand-logo-mini align-self-center d-lg-none" href="<?= base_url('assets/backend/') ?>index.html"><img src="<?= base_url('assets/backend/') ?>assets/images/logo-mini.svg" alt="logo" /></a>
+        <button class="navbar-toggler navbar-toggler align-self-center mr-2" type="button" data-toggle="minimize">
+          <i class="mdi mdi-menu"></i>
+        </button>
+        <ul class="navbar-nav navbar-nav-right ml-lg-auto">
+
+          <li class="nav-item nav-profile dropdown border-0">
+            <a class="nav-link dropdown-toggle" id="profileDropdown" href="<?= base_url('assets/backend/') ?>#" data-toggle="dropdown">
+              <img class="nav-profile-img mr-2" alt="" src="<?= base_url('assets/backend/') ?>assets/images/faces/face1.jpg" />
+              <span class="profile-name">Henry Klein</span>
+            </a>
+            <div class="dropdown-menu navbar-dropdown w-100" aria-labelledby="profileDropdown">
+              <a class="dropdown-item" href="<?= base_url('assets/backend/') ?>#">
+                <i class="mdi mdi-cached mr-2 text-success"></i> Activity Log </a>
+              <a class="dropdown-item" href="<?= base_url('assets/backend/') ?>#">
+                <i class="mdi mdi-logout mr-2 text-primary"></i> Signout </a>
+            </div>
+          </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+          <span class="mdi mdi-menu"></span>
+        </button>
+      </div>
+    </nav>

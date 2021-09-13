@@ -25,13 +25,19 @@ class C_layanan extends CI_Controller
 		$this->load->view('admin/template/header');
 		$this->load->view('admin/template/nav');
 		// isi
-		$this->load->view('admin/dasboard');
+		$this->load->view('admin/pages/layanan/list');
 		// template footer
 		$this->load->view('admin/template/footer');
 	}
 
-	public function test()
+	public function add()
 	{
-		echo "Hello Gaise";
+		// template header dan navigasi
+		$this->load->view('admin/template/header');
+		$this->load->view('admin/template/nav');
+		// isi
+		$this->load->view('admin/pages/layanan/add');
+		// template footer
+		$this->load->view('admin/template/footer');
 	}
 }

@@ -25,7 +25,7 @@ class C_dasboard extends CI_Controller
 		$this->load->view('admin/template/header');
 		$this->load->view('admin/template/nav');
 		// isi
-		$this->load->view('admin/dasboard');
+		$this->load->view('admin/pages/dashboard/dasboard');
 		// template footer
 		$this->load->view('admin/template/footer');
 	}
