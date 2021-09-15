@@ -27,7 +27,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?= base_url('assets/backend/') ?>index.html">
+          <a class="nav-link" href="<?= base_url('admin') ?>/c_user">
             <i class="mdi mdi-account menu-icon"></i>
             <span class="menu-title">User</span>
           </a>
@@ -39,31 +39,31 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?= base_url('assets/backend/') ?>pages/icons/mdi.html">
+          <a class="nav-link" href="<?= base_url('admin') ?>/c_pengaduan">
             <i class="mdi mdi-contacts menu-icon"></i>
             <span class="menu-title">Pengaduan</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?= base_url('assets/backend/') ?>pages/forms/basic_elements.html">
+          <a class="nav-link" href="<?= base_url('admin') ?>/c_proses">
             <i class="mdi mdi-format-list-bulleted menu-icon"></i>
             <span class="menu-title">Pengaduan Layanan</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?= base_url('assets/backend/') ?>pages/charts/chartjs.html">
+          <a class="nav-link" href="<?= base_url('admin') ?>/c_prasyarat">
             <i class="mdi mdi-chart-bar menu-icon"></i>
             <span class="menu-title">Prasyarat</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?= base_url('assets/backend/') ?>pages/tables/basic-table.html">
+          <a class="nav-link" href="<?= base_url('admin') ?>/c_paraf">
             <i class="mdi mdi-table-large menu-icon"></i>
             <span class="menu-title">Paraf</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?= base_url('assets/backend/') ?>https://www.bootstrapdash.com/demo/breeze-free/documentation/documentation.html">
+          <a class="nav-link" href="<?= base_url('admin') ?>/c_testimoni">
             <i class="mdi mdi-file-document-box menu-icon"></i>
             <span class="menu-title">Testimoni</span>
           </a>
