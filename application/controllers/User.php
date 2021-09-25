@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class C_home extends CI_Controller
+class User extends CI_Controller
 {
 
 	/**
@@ -29,6 +29,43 @@ class C_home extends CI_Controller
 		// template footer
 		$this->load->view('user/template/footer');
 	}
+
+	public function layanan()
+	{
+		// template header dan navbar
+		$this->load->view('user/template/header');
+		$this->load->view('user/template/nav');
+		// isi
+		$this->load->view('user/layanan');
+		// template footer
+		$this->load->view('user/template/footer');
+	}
+
+	public function pengaduan()
+	{
+		// template header dan navbar
+		$this->load->view('user/template/header');
+		$this->load->view('user/template/nav');
+		// isi
+		$this->load->view('user/pengaduan');
+		// template footer
+		$this->load->view('user/template/footer');
+	}
+
+	public function masuk()
+	{
+		// isi
+		$this->load->view('user/masuk');
+		
+	}
+
+	public function daftar()
+	{
+		// isi
+		$this->load->view('user/daftar');
+		
+	}
+
 
 	public function test()
 	{
