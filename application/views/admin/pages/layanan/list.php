@@ -22,12 +22,22 @@
                   <tr>
                     <th>#</th>
                     <th>Nama Layanan</th>
-                    <th>Id Layanan</th>
-                    <th>File</th>
                     <th>Deskripsi</th>
-                    <th>Aksi</th>
+                    <th>File</th>
                   </tr>
-                  
+           <?php
+                  $no = 1;
+                  foreach ($layanan as $b => $row){ ?>
+              <tr>
+                <td><?=$no++;?></td>   
+                <td><?=$row->nama_layanan;?></td>
+                <td><?=$row->deskripsi;?></td>
+                <td><?=$row->file;?></td>
+                <td></td>
+            </tr>
+          <?php
+                  }
+                  ?>
                 </tbody>
               </table>
             </div>
